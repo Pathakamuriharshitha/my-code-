@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>India's Timeless Treasures</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f4ef;
+      color: #2d2d2d;
+    }
+    header {
+      background: #d35400;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 30px;
+    }
+    .place {
+      background: white;
+      border-radius: 10px;
+      width: 320px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .place:hover {
+      transform: scale(1.05);
+    }
+    .place img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    .info {
+      padding: 15px;
+    }
+    .info h3 {
+      margin: 0 0 10px;
+      color: #d35400;
+    }
+    .info p {
+      font-size: 14px;
+    }
+    button {
+      margin-top: 12px;
+      background-color: #d35400;
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    button:hover {
+      background-color: #b84300;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>India's Historical Marvels</h1>
+    <p>Experience the artistry and stories etched in stone</p>
+  </header>
+  <div class="gallery">
+    <div class="place">
+      <img src="C:\Users\Harshitha\Downloads\ac" alt="Ajanta Caves">
+      <div class="info">
+        <h3>Ajanta Caves, Maharashtra</h3>
+        <p>Ancient Buddhist rock-cut caves dating from the 2nd century BCE, famed for murals and serenity.</p>
+        <button onclick="alert('The Ajanta Caves were abandoned for centuries and rediscovered in 1819!')">Fun Fact</button>
+      </div>
+    </div>
+    <div class="place">
+      <img src="C:\Users\Harshitha\Downloads\kt" alt="Konark Sun Temple">
+      <div class="info">
+        <h3>Konark Sun Temple, Odisha</h3>
+        <p>13th-century chariot-shaped temple dedicated to the Sun God, an engineering and artistic marvel.</p>
+        <button onclick="alert('Konark’s wheels double as sundials, telling time with surprising accuracy!')">Fun Fact</button>
+      </div>
+    </div>
+    <div class="place">
+      <img src="C:\Users\Harshitha\Downloads\jf" alt="Jaisalmer Fort">
+      <div class="info">
+        <h3>Jaisalmer Fort, Rajasthan</h3>
+        <p>Also known as Sonar Quila, this golden sandstone fort is one of the last inhabited forts in the world.</p>
+        <button onclick="alert('Over a quarter of Jaisalmer’s population lives within the fort walls today!')">Fun Fact</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
